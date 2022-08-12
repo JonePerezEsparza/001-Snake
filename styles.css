@@ -1,0 +1,60 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#world, .worldinfo{
+    max-width:700px;
+    border: true;
+    border-width: 5px;
+}
+
+#world {
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    border: true;
+    border-width: 5px;
+}
+
+#start, .worldinfo {
+    font-size: 25px;
+}
+
+#gameover {
+    display:none;
+    font-size: 80px;
+}
+
+.worldinfo {
+    display:flex;
+    justify-content: space-between;
+    margin-top:10px;
+}
+
+#start {
+    background-color: rgb(220, 27, 20);
+    border: true;
+    border-width: 5px;
+    color:white;
+}
+
+#scoreboard {
+    display: inline-flex;
+    
+}
+
+.square {
+    aspect-ratio: 1;
+}
+
+.emptySquare {
+    background-color: green;
+}
+
+.snakeSquare{
+    background-color: rgb(7, 7, 7);
+}
+
+.foodSquare{
+    background-color: black;
+}
+
